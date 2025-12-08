@@ -1,17 +1,3 @@
-## Keywords
-
-Gravity of Probability, GoP, cosmological constant, Lambda, ΛCDM, dark energy, 
-vacuum energy, vacuum constant, zero-point energy, emergent cosmology, 
-probabilistic curvature, decoherence, quantum decoherence, quantum gravity, 
-baryonic bias, emergent Λ, cosmology, theoretical physics, SPARC galaxies, 
-gravitational modeling, decoherence-driven curvature, quantum information, 
-semi-classical gravity, vacuum density, Hubble parameter, large-scale structure, 
-decoherence physics, GoP parameterization, Λ prediction, cosmological fine-tuning, 
-cosmic acceleration, alternative gravity models, dark matter alternatives.
-
-
-
-
 # GoP-vs-Lambda-Vacuum-Constant
 A simple Python demonstration comparing the ΛCDM cosmological constant’s vacuum energy density with the emergent vacuum scale predicted by the Gravity of Probability (GoP) framework—showing GoP reproduces Λ’s value without cosmological tuning.
 
@@ -83,3 +69,16 @@ papers can be found on the Figshare profile above.
 
 - For full analyses, datasets, lensing models, and the complete GoP series of
   papers, refer to the Figshare profile included above.
+
+  ---
+
+  ## Keywords
+
+Gravity of Probability, GoP, cosmological constant, Lambda, ΛCDM, dark energy, 
+vacuum energy, vacuum constant, zero-point energy, emergent cosmology, 
+probabilistic curvature, decoherence, quantum decoherence, quantum gravity, 
+baryonic bias, emergent Λ, cosmology, theoretical physics, SPARC galaxies, 
+gravitational modeling, decoherence-driven curvature, quantum information, 
+semi-classical gravity, vacuum density, Hubble parameter, large-scale structure, 
+decoherence physics, GoP parameterization, Λ prediction, cosmological fine-tuning, 
+cosmic acceleration, alternative gravity models, dark matter alternatives.
