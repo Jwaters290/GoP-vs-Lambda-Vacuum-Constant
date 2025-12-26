@@ -1,3 +1,4 @@
+
 # GoP-vs-Lambda-Vacuum-Constant
 A simple Python demonstration comparing the ΛCDM cosmological constant’s vacuum energy density with the emergent vacuum scale predicted by the Gravity of Probability (GoP) framework—showing GoP reproduces Λ’s value without cosmological tuning.
 
@@ -55,6 +56,10 @@ serves as a clear, minimal reference illustrating that GoP turns the cosmologica
 constant from an input into an output.
 
 ---
+
+## Origin
+
+This specific repository works in parallel to the primary Github [GoP-DESI-VACs-Pipeline-And-Testbed](https://github.com/Jwaters290/GoP-DESI-VACs-Pipeline-And-Testbed).
 
 ## Features
 
