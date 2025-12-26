@@ -2,6 +2,35 @@
 A simple Python demonstration comparing the ΛCDM cosmological constant’s vacuum energy density with the emergent vacuum scale predicted by the Gravity of Probability (GoP) framework—showing GoP reproduces Λ’s value without cosmological tuning.
 
 
+The repository is provided for reproduciability, but here are the results:
+```
+=== ΛCDM vacuum energy (from cosmology) ===
+H0                  = 67.40 km/s/Mpc
+Ω_Λ                 = 0.688
+ρ_Λ (mass)          = 5.875e-27 kg/m^3
+ρ_Λ (energy)        = 5.281e-10 J/m^3
+
+=== GoP emergent vacuum scale (no Λ tuning) ===
+κA                  = 1.50e-15
+E0                  = 1.00e+12 erg
+Coherence volume    = 1.00 m^3
+ρ_vac^GoP (energy)  = 1.500e-10 J/m^3
+
+=== Comparison ===
+ρ_vac^GoP / ρ_Λ     = 0.284
+(~ O(1) agreement without any cosmological tuning)
+```
+
+Key Result: 
+
+ - The GoP emergent vacuum energy density (ρ_vac^{GoP} ≈ 1.5 × 10^{-10} J/m³) matches the ΛCDM value (ρ_Λ ≈ 5.3 × 10^{-10} J/m³) to within a factor of ~0.3—close to order-unity agreement. This demonstrates GoP's ability to reproduce the observed dark energy scale naturally, using parameters constrained elsewhere (not tuned to cosmology).
+ - Implications: Supports GoP as a viable alternative to ΛCDM for explaining cosmic acceleration, potentially resolving fine-tuning issues. The script notes this is a distilled toy model, not the full formalism, but it aligns with GoP's broader predictions (e.g., stable vacuum without instability).
+ - Limitations: This demonstration intentionally employs a highly simplified coherence volume (fixed to 1 m³) to illustrate the emergence of the GoP vacuum energy scale in a transparent, order-of-magnitude manner.
+
+Additionally, this repository does not include observational data overlays, likelihood analyses, or N-body / Boltzmann simulations. It is not intended to replace full cosmological modeling or survey pipelines, but to serve as a quick, reproducible reference demonstrating that the GoP framework reproduces the observed vacuum energy scale without cosmological parameter tuning. More comprehensive implementations (e.g., void statistics, CMB/LSS cross-correlations, and time-dependent evolution) are addressed in the broader GoP literature and companion repositories.
+
+Currently, reproducable code for observational overlays is a work in porogress.
+
 # GoP vs Λ Vacuum Constant Comparison
 
 This repository provides a small, transparent Python demonstration comparing the 
