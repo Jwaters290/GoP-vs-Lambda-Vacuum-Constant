@@ -205,3 +205,21 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- GoP void-CMB toy module (repo-specific) ---
+
+# Large local data (Planck / masks / HEALPix inputs)
+data/
+*.fits
+*.fits.gz
+*.fz
+
+# Optional: ignore local caches / scratch
+*.npy
+*.npz
+
+# If you want to keep runs/ JSON and figures/ PNG tracked, do NOT ignore these dirs.
+# (If you later decide to ignore them, uncomment the lines below.)
+# runs/
+# figures/
+
