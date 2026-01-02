@@ -29,6 +29,28 @@ Key Result:
  - Limitations: This demonstration intentionally employs a highly simplified coherence volume (fixed to 1 m³) to illustrate the emergence of the GoP vacuum energy scale in a transparent, order-of-magnitude manner.
 
 The [January 2nd 2026, v2.0.0 Release](https://github.com/Jwaters290/GoP-vs-Lambda-Vacuum-Constant/releases) extends the GoP vs Λ Vacuum Constant repository beyond vacuum-scale demonstrations by introducing a reproducible, toy-level prediction and measurement scaffold for cosmic void imprints in the CMB and a prediction for the Boötes Void.
+```
+=== GoP Void-Core Toy Model Example Output (v2.0.0) ===
+(Using default A1_lowz anchor: typical low-z void regime calibration)
+
+Calibration anchor:
+  R_cal = 55 Mpc, z_cal = 0.3, ΔT_cal = 10 µK (places representative voids at O(10 µK))
+
+Boötes Void regime placement (R=62 Mpc, z≈0.052, |δ_core| proxy ≈0.85):
+  g(z,|δ|) ≈ 0.98  →  w_Γ(g) ≈ 1.00 (near-maximal decoherence retention)
+  Predicted ΔT_core ≈ O(10 µK)  (illustrative mid-teens µK under this anchor)
+
+Panel A scaling (fixed z=0.5, |δ|=0.3):
+  Threshold onset below ~40 Mpc; rises steeply for larger voids (idealized ∝ R^{7/2})
+
+Sensitivity notes:
+  Amplitude is anchor-relative (regime mapping, not absolute normalization)
+  Realistic surveys limit signals to O(10 µK) via projection, variance, and saturation effects
+```
+Version context
+v1.0.0 demonstrated order-unity vacuum energy agreement without cosmological tuning—a standalone emergence check.
+v2.0.0 explores relative scaling and regime placement in the void sector under explicit anchors. Interpret as conceptual mapping and preregistration, not independent precision forecasting.
+
 
 1. **Void CMB Toy Model**
 
@@ -58,6 +80,16 @@ Enables preregistered predictions for individual voids (e.g., Boötes).
  - Matched-latitude random-center null distribution
  - Multi-map consistency support (SMICA / NILC / Commander)
  - Outputs machine-readable JSON artifacts for predictions and measurements.
+
+**Implications & Limitations**
+ - Key Result: The toy model places large low-z voids like Boötes in a high-retention regime (w_Γ ≈1), yielding O(10 µK) warm cores—qualitatively opposite ΛCDM's expected cold imprints. This sign-flip is a framework-predicted differentiator.
+ - Implications: Illustrates how GoP decoherence can imprint observable CMB structure without new parameters; provides preregistered targets for Planck/DESI checks.
+
+Limitations:
+ - Toy-level only: simplified geometry, fixed D_decay, spherical assumption, no full N-body or bias modeling.
+ - Anchor-dependent: Amplitudes illustrate relative scaling; absolute normalization awaits stacked overlays.
+ - Steep idealized scaling (∝ R^{7/2}) is moderated in practice by projection effects, foregrounds, and cosmic variance—expect O(10 µK) observable limits.
+ - Single-void measurements (e.g., Boötes) have low S/N; harness provided for null tests, not detections.
 
 
 ---
