@@ -28,9 +28,43 @@ Key Result:
  - Implications: Supports GoP as a viable alternative to ΛCDM for explaining cosmic acceleration, potentially resolving fine-tuning issues. The script notes this is a distilled toy model, not the full formalism, but it aligns with GoP's broader predictions (e.g., stable vacuum without instability).
  - Limitations: This demonstration intentionally employs a highly simplified coherence volume (fixed to 1 m³) to illustrate the emergence of the GoP vacuum energy scale in a transparent, order-of-magnitude manner.
 
-Additionally, this repository does not include observational data overlays, likelihood analyses, or N-body / Boltzmann simulations. It is not intended to replace full cosmological modeling or survey pipelines, but to serve as a quick, reproducible reference demonstrating that the GoP framework reproduces the observed vacuum energy scale without cosmological parameter tuning. More comprehensive implementations (e.g., void statistics, CMB/LSS cross-correlations, and time-dependent evolution) are addressed in the broader GoP literature and companion repositories.
+The [January 2nd 2026, v2.0.0 Release](https://github.com/Jwaters290/GoP-vs-Lambda-Vacuum-Constant/releases) extends the GoP vs Λ Vacuum Constant repository beyond vacuum-scale demonstrations by introducing a reproducible, toy-level prediction and measurement scaffold for cosmic void imprints in the CMB and a prediction for the Boötes Void.
 
-Currently, reproducable code for observational overlays is a work in porogress.
+1. **Void CMB Toy Model**
+
+ - Introduces a minimal, physically motivated mapping from GoP decoherence physics to void-scale CMB temperature shifts.
+ - Implements a bell-curve decoherence kernel Γ(E) with environmental weighting 𝑔(𝑧,∣𝛿∣)g(z,∣δ∣).
+ - Provides closed-form scaling Δ𝑇core∝𝑅7/2⋅𝑤Γ(𝑔)ΔTcore  ∝R 7/2⋅wΓ(g).
+
+2. **Anchor-Calibrated Predictions**
+
+**Adds explicit calibration presets:**
+
+ - ```baseline``` (R=80 Mpc, z=0.5, ΔT=10 µK)
+ - ```A1_lowz``` (R=55 Mpc, z=0.3, ΔT=10 µK, default)
+ - ```A2_lowz_band``` (R=55 Mpc, z=0.3, ΔT=8 µK)
+Enables preregistered predictions for individual voids (e.g., Boötes).
+
+3. **Boötes Void Case Study**
+
+ - Includes a concrete, parameter-locked prediction for the Boötes Void using literature-consensus size and redshift.
+ - Designed as a single-object sanity check, not a statistical detection claim.
+
+4. **Planck Aperture Photometry Measurement Harness**
+
+**Adds a reproducible HEALPix-based aperture photometry pipeline:**
+ - Core-minus-rim ΔT measurement
+ - Bootstrap uncertainty estimation
+ - Matched-latitude random-center null distribution
+ - Multi-map consistency support (SMICA / NILC / Commander)
+ - Outputs machine-readable JSON artifacts for predictions and measurements.
+
+
+---
+
+Reproducable code for observational overlays from DR2 VACs (DESIVAST) is a work in porogress - there's currently not public data available.
+
+---
 
 # GoP vs Λ Vacuum Constant Comparison
 
