@@ -64,7 +64,7 @@ v2.0.0 explores relative scaling and regime placement within the cosmic-void sec
 1. **Void CMB Toy Model**
 
  - Introduces a minimal, physically motivated mapping from GoP decoherence physics to void-scale CMB temperature shifts.
- - Implements a bell-curve decoherence kernel Γ(E) with environmental weighting 𝑔(𝑧,∣𝛿∣)g(z,∣δ∣).
+ - Implements a bell-curve decoherence kernel Γ(E) with environmental weighting 𝑔(𝑧,∣𝛿∣).
  - Provides closed-form scaling Δ𝑇core∝𝑅7/2⋅𝑤Γ(𝑔)ΔTcore  ∝R 7/2⋅wΓ(g).
 
 2. **Anchor-Calibrated Predictions**
